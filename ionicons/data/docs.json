@@ -1,0 +1,27 @@
+{
+  "dsp_spec_version": "0.0.1",
+  "last_updated_by": "",
+  "last_updated": "2020-11-11T17:46:12.665Z",
+  "entities": [
+    {
+      "class": "doc",
+      "type": "page",
+      "id": "d6c00986-6df7-4e95-bdc2-3ccdffb9727e",
+      "name": "Installation",
+      "description": "If you're using [Ionic Framework](https://ionicframework.com/), Ionicons is packaged by default, so no installation is necessary. Want to use Ionicons without Ionic Framework? Place the following `<script>` near the end of your page, right before the closing </body> tag, to enable them.\n\n```html\n<script src=\"https://unpkg.com/ionicons@5.0.0/dist/ionicons.js\"></script>",
+      "tags": [],
+      "last_updated": "2020-11-11T17:50:13.688Z",
+      "last_updated_by": ""
+    },
+    {
+      "class": "doc",
+      "type": "page",
+      "id": "D5BB331A-2483-4CC5-BCB7-82FFDC412B36",
+      "name": "Introduction",
+      "description": "[Ionicons](http://ionicons.com/) is a completely open-source icon set with 1,300 icons crafted for web, iOS, Android, and desktop apps. Ionicons was built for [Ionic Framework](https://ionicframework.com/), so icons have both Material Design and iOS versions.\n\nNote: All brand icons are trademarks of their respective owners. The use of these trademarks does not indicate endorsement of the trademark holder by Ionic, nor vice versa.\n\nWe intend for this icon pack to be used with [Ionic](http://ionicframework.com/), but it’s by no means limited to it. Use them wherever you see fit, personal or commercial. They are free to use and licensed under [MIT](http://opensource.org/licenses/MIT).\n\n## Using the Web Component\n\nThe Ionicons Web Component is an easy and performant way to use Ionicons in your app. The component will dynamically load an SVG for each icon, so your app is only requesting the icons that you need.\n\nAlso note that only visible icons are loaded, and icons which are \"below the fold\" and hidden from the user's view do not make fetch requests for the svg resource.\n\n### Basic usage\n\nTo use a built-in icon from the Ionicons package, populate the `name` attribute on the ion-icon component:\n\n```html\n<ion-icon name=\"heart\"></ion-icon>\n```\n\n## Variants\nEach app icon in Ionicons has a `filled`, `outline` and `sharp` variant. These different variants are provided to make your app feel native to a variety of platforms. The filled variant uses the default name without a suffix. Note: Logo icons do not have outline or sharp variants.\n\n```html\n<ion-icon name=\"heart\"></ion-icon> <!--filled-->\n<ion-icon name=\"heart-outline\"></ion-icon> <!--outline-->\n<ion-icon name=\"heart-sharp\"></ion-icon> <!--sharp-->\n```\n\n### Platform specificity\nWhen using icons in Ionic Framework you can specify different icons per platform. Use the `md` and `ios` attributes and provide the platform specific icon/variant name.\n\n```html\n<ion-icon ios=\"heart-outline\" md=\"heart-sharp\"></ion-icon>\n```",
+      "tags": [],
+      "last_updated": "2020-11-11T17:53:30.955Z",
+      "last_updated_by": ""
+    }
+  ]
+}
