@@ -4,8 +4,7 @@ Ionic IonIcons Design System Package (DSP) beta, based on [ionicons.com](https:/
 
 ## Installing
 
-TEMP: Place the ionicons directory within your node-modules directory.
-<!--To install Adobe Spectrum DSP in your project, please run `npm install ionic-ionicons-dsp`-->
+To install Adobe Spectrum DSP in your project, please run `npm install ionic-ionicons-dsp`
 
 ## Feedback
 
